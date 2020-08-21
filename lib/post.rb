@@ -19,7 +19,8 @@ class Post
   # else
   #   nil
   # end
-    author.name if author
+     author.name if author
+    end
   end
   
   
