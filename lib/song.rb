@@ -21,6 +21,7 @@ class Song
   #   end
     artist.name if artist
   end
+  end
   
   
   
