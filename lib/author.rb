@@ -1,4 +1,3 @@
-require 'pry'
 class Author
   
   attr_accessor :name
@@ -18,7 +17,10 @@ class Author
   def add_post_by_title(title)
     post = Post.new(title)
     post.author = self
-    binding.pry
+  end
+  
+  def self.post_count
+    Post.all.count
   end
   
   
