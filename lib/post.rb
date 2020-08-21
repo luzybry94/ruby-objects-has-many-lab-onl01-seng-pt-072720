@@ -19,6 +19,7 @@ class Post
   # else
   #   nil
   # end
+    author.name if author
   end
   
   
