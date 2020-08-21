@@ -21,6 +21,7 @@ class Author
   
   def self.post_count
     posts.count
+  end
   
   
 end
